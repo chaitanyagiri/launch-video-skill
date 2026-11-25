@@ -1,0 +1,52 @@
+{
+  "mode": "create",
+  "budget": { "tier": "standard", "examples_max": 6, "writer": "claude-fable-5-2", "builder": "claude-opus-5-5", "builder_effort": "max", "review_rounds": 1 },
+  "brand": {
+    "name": "",
+    "one_liner": "",
+    "launching": "",
+    "version": "",
+    "url": "",
+    "logos": { "light": "", "dark": "" },
+    "colours": { "primary": "", "accent": "", "background": "", "text": "" },
+    "fonts": { "display": "", "body": "" },
+    "brand_guide": "",
+    "tone": []
+  },
+  "idea": {
+    "voice_note_file": "",
+    "voice_note_transcript": "launch/intake/voice-note.txt",
+    "heard": [],
+    "must_remember": ""
+  },
+  "examples": {
+    "liked": [ { "url": "", "file": "", "why": "" } ],
+    "disliked": [ { "url": "", "why": "" } ],
+    "follow_closely": ""
+  },
+  "product": {
+    "capture_method": "",
+    "features": [ { "name": "", "proof_flow": "", "rank": 1 } ],
+    "assets": [ { "path": "", "what": "", "licence": "" } ],
+    "never_on_screen": []
+  },
+  "format": {
+    "platforms": [],
+    "aspects": ["16:9"],
+    "length_s": 40,
+    "fps": 60,
+    "sound": "sfx_and_music",
+    "voice": { "source": "none", "voice_id": "" },
+    "music_file": "",
+    "look": "light"
+  },
+  "words": {
+    "must_say": [],
+    "never_say": [],
+    "banned_colours": [],
+    "banned_punctuation": [],
+    "casing": "",
+    "emoji": false
+  },
+  "approval": { "approvers": ["user"], "deadline": "" }
+}

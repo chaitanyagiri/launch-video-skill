@@ -1,0 +1,27 @@
+{
+  "film": "<brand>-launch",
+  "aspect": "16:9",
+  "fps": 60,
+  "length_s": 40,
+  "music": { "file": "", "bpm": null, "first_downbeat_s": null },
+  "shots": [
+    {
+      "id": "s1-hook",
+      "start": 0.0,
+      "end": 2.0,
+      "screen": "real: <app screen name and state>",
+      "what_happens": "<the action, step by step>",
+      "camera": "push in from the full window",
+      "zoom_and_focus": "full window, then 1.6x on <component>",
+      "cursor": "none",
+      "pop_out": "",
+      "text_on_screen": { "words": "<2 to 6 words>", "size_px": 96, "position": "bottom left caption zone" },
+      "voice": "",
+      "sfx": ["click"],
+      "transition_out": "hard cut",
+      "assets": ["launch/assets/shots/<file>.png"],
+      "source": ""
+    }
+  ],
+  "end_card": { "logo": "", "line": "", "url": "", "hold_s": 2.5 }
+}
