@@ -12,13 +12,34 @@ from every round of feedback built in (`references/lessons.md`).
 
 Works in Claude Code and Codex.
 
+## Start with one prompt
+
+Paste this into Claude Code, Codex or any coding agent, in the folder where you want the
+film to live. It installs everything and starts the first questionnaire.
+
+```text
+Set up the launch-video skill (https://github.com/chaitanyagiri/launch-video-skill) and start my first launch video.
+
+1. Check my machine: node -v (18 or newer), ffmpeg -version, python3 -c "import numpy", git --version. For anything missing, tell me the exact install command for my system and wait for my OK before installing it.
+2. Install the skill: npx skills add chaitanyagiri/launch-video-skill -g -y
+   If that fails, clone the repo into your skills folder instead (Claude Code: ~/.claude/skills/launch-video, Codex: ~/.agents/skills/launch-video). If you have no skills folder, clone it to ./.launch-video-skill.
+3. Install the HyperFrames skills it builds with: npx skills add heygen-com/hyperframes -g -y --skill '*'
+   Then check that npx hyperframes --version works.
+4. Optional, ask me before each: yt-dlp (to download my example links), the Agent Reach skill (https://github.com/Panniantong/Agent-Reach) for X, Instagram and TikTok links, and whisper or an ElevenLabs key to transcribe my voice note.
+5. Tell me in a few lines what is installed and what is still missing.
+6. Read the installed SKILL.md now (do not wait for a restart) and follow it in CREATE mode. Ask the spend question first (Lean, Standard or Max), then the questionnaire one round at a time: my brand, a one minute voice note about the idea, example videos, my product and assets, format and sound, words and rules. Save my answers in a launch/ folder here as you go. Do not research, write or build anything until I confirm the intake summary.
+```
+
+Next time, in any session, just say "make a launch video for my app" or "change scene 2 of
+my launch video".
+
 ## Install
 
 With the skills CLI (it asks which agent to install into):
 
 ```bash
-npx skills add chaitanyagiri/launch-video-skill
-npx skills add heygen-com/hyperframes --all   # the HyperFrames skills it builds with
+npx skills add chaitanyagiri/launch-video-skill -g
+npx skills add heygen-com/hyperframes -g --skill '*'   # the HyperFrames skills it builds with
 ```
 
 Or clone it straight into your skills folder:

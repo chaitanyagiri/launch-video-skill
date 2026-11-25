@@ -37,7 +37,7 @@ taught us the hard way. Follow it in order. Never skip an approval gate.
    - `CREATE` otherwise. Continue below.
    - The user can force a mode: `/launch-video create` or `/launch-video iterate`.
 2. Check tools once: `node -v` (18 or newer), `ffmpeg -version`, `npx hyperframes --version`.
-   Missing HyperFrames skills: `npx skills add heygen-com/hyperframes --all` (or
+   Missing HyperFrames skills: `npx skills add heygen-com/hyperframes -g --skill '*'` (or
    `npx hyperframes skills`). Optional: `yt-dlp`, the `agent-reach` skill
    (https://github.com/Panniantong/Agent-Reach) for X, Instagram, YouTube and TikTok links,
    `whisper` or an ElevenLabs key for transcripts. Say what is missing and what it costs
