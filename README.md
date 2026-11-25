@@ -12,6 +12,16 @@ from every round of feedback built in (`references/lessons.md`).
 
 Works in Claude Code and Codex.
 
+## Examples
+
+Two launch films made with this process for [Munder Difflin](https://munderdiffl.in). Click a still to play it.
+
+| [![Munder Difflin launch film](examples/munder-difflin-launch.jpg)](https://github.com/chaitanyagiri/launch-video-skill/releases/download/examples/munder-difflin-launch.mp4) | [![Reason remake](examples/munder-difflin-reason-remake.jpg)](https://github.com/chaitanyagiri/launch-video-skill/releases/download/examples/munder-difflin-reason-remake.mp4) |
+|---|---|
+| **Launch film** (Sep 2026, 50.6 s, 1080p60). Real app screens, big type, fast cuts and a full sound effects pass. | **Reason remake** (Nov 2026, 36.7 s, 1080p60). A pacing study of the Reason Machines intro, rebuilt with real Munder Difflin screens. Structure and music are from the original and remain theirs. |
+
+Both files are on the [Example launch films](https://github.com/chaitanyagiri/launch-video-skill/releases/tag/examples) release, not in the skill folder, so installs stay small.
+
 ## Start with one prompt
 
 Paste this into Claude Code, Codex or any coding agent, in the folder where you want the
